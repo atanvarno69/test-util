@@ -10,7 +10,7 @@ with protected and private methods and properties.
 
 ## Installation
 ```bash
-$ composer require atanvarno/test-util:^1.0.0
+$ composer require atanvarno/test-util:^0.1.0
 ```
 
 ## Basic Usage
