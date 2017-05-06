@@ -15,9 +15,7 @@ $ composer require atanvarno/test-util:^1.0.0
 
 ## Basic Usage
 ```php
-use PHPUnit\Framework\TestCase;
-
-class YourTest extends TestCase
+class YourTest extends \PHPUnit\Framework\TestCase
 {
     use Atanvarno\PHPUnit\{CallProtectedMethodTrait, SetProtectedPropertyTrait};
     
