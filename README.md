@@ -1,9 +1,9 @@
-# Atanvarno\Dependency
+# Atanvarno\PHPUnit
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/atanvarno69/test-util/blob/master/LICENSE)
 [![Latest Version](https://img.shields.io/github/release/atanvarno69/test-util.svg?style=flat-square)](https://github.com/atanvarno69/test-util/releases)
 
-Utility traits for PHPUnit test cases for interacting with protected and 
-private methods and properties.
+Utility traits for [PHPUnit](https://phpunit.de/) test cases for interacting 
+with protected and private methods and properties.
 
 ## Requirements
 **PHP >= 7.0** is required, but the latest stable version of PHP is recommended.

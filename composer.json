@@ -17,17 +17,12 @@
     "require": {
         "php": "^7.0"
     },
-    "require-dev": {
-
+    "suggest": {
+        "phpunit/phpunit": "The PHP unit testing framework"
     },
     "autoload": {
         "psr-4": {
             "Atanvarno\\PHPUnit\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Atanvarno\\PHPUnit\\Test\\": "tests"
         }
     },
     "minimum-stability": "dev",
