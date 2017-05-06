@@ -8,13 +8,12 @@
 
 namespace Atanvarno\PHPUnit;
 
-/** SPL use block. */
-use InvalidArgumentException;
-
 /**
  * Atanvarno\PHPUnit\ErrorMessageTrait
  *
- * @internal Provides error messages for other traits.
+ * Provides error messages for other traits.
+ *
+ * @internal
  */
 trait ErrorMessageTrait
 {

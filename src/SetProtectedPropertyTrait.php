@@ -16,6 +16,8 @@ use InvalidArgumentException, ReflectionClass;
  *
  * Provides means to set a protected or private property of an object for test
  * purposes.
+ *
+ * @api
  */
 trait SetProtectedPropertyTrait
 {

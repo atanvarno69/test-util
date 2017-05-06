@@ -16,6 +16,8 @@ use InvalidArgumentException, ReflectionClass;
  *
  * Provides means to call a protected or private method of an object for test
  * purposes.
+ *
+ * @api
  */
 trait CallProtectedMethodTrait
 {
