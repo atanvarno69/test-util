@@ -17,8 +17,10 @@ $ composer require atanvarno/test-util:^1.0.0
 ```php
 class YourTest extends \PHPUnit\Framework\TestCase
 {
+    // Include the traits
     use Atanvarno\PHPUnit\{CallProtectedMethodTrait, SetProtectedPropertyTrait};
     
+    // Write your tests
     public function testYourMethod()
     {
         $testObject = new SomeClass();
