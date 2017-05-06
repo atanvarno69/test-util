@@ -1,0 +1,35 @@
+{
+    "name": "atanvarno/test-util",
+    "description": "PHPUnit test case utilities",
+    "keywords": [
+         "PHPUnit", "test", "utility", "utilities"
+    ],
+    "homepage": "https://github.com/atanvarno69/test-util",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "atanvarno69",
+            "email": "atanvarno69@gmail.com",
+            "homepage": "https://github.com/atanvarno69",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Atanvarno\\PHPUnit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Atanvarno\\PHPUnit\\Test\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
