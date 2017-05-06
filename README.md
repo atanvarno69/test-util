@@ -21,7 +21,7 @@ class YourTest extends TestCase
 {
     use Atanvarno\PHPUnit\{CallProtectedMethodTrait, SetProtectedPropertyTrait};
     
-    testYourMethod()
+    public function testYourMethod()
     {
         $testObject = new SomeClass();
         
