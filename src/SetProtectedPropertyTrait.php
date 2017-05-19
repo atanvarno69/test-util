@@ -47,6 +47,6 @@ trait SetProtectedPropertyTrait
         $class = new ReflectionClass($object);
         $property = $class->getProperty($property);
         $property->setAccessible(true);
-        $property->setValue($object, $value);;
+        $property->setValue($object, $value);
     }
 }
